@@ -4,6 +4,9 @@ import 'package:widgets_app/config/menu/menu_item.dart';
 import 'package:widgets_app/presentation/screens/buttons/buttons_screen.dart';
 
 class HomeScreen extends StatelessWidget {
+
+  static String name = 'Home.screen';
+
   const HomeScreen({super.key});
 
   @override
@@ -39,6 +42,7 @@ class _HomeView extends StatelessWidget {
 }
 
 class _CustomListTitle extends StatelessWidget {
+
   const _CustomListTitle({
     super.key, 
     required this.menuItem
