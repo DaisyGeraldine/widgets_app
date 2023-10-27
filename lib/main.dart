@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:widgets_app/config/theme/app_theme.dart';
+import 'package:widgets_app/presentation/screens/home/home_screen.dart';
+import 'package:widgets_app/scroll.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,13 +14,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: true,
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: Text('Flutter Demo Home Page'),
+      theme: Apptheme(selectedColor: 5).getTheme(),
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Flutter Demo'),
+        ),
+        body: Center(
+          child: HomeScreen(),
+          ),
+        ),
     );
   }
 }
