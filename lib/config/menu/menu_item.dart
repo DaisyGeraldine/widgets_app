@@ -17,29 +17,43 @@ class MenuItem {
 }
 
 const appMenuItems = <MenuItem> [
+
+  MenuItem(
+    title: 'Buttons',
+    subtitle: 'Buttons page',
+    link: '/buttons',
+    icon: Icons.ac_unit,
+  ),
+
+  MenuItem(
+    title: 'Cards',
+    subtitle: 'Cards page',
+    link: '/cards',
+    icon: Icons.access_alarm,
+  ),
   
-  MenuItem(
-    title: 'Home',
-    subtitle: 'Home page',
-    link: '/',
-    icon: Icons.home,
-  ),
-  MenuItem(
-    title: 'About',
-    subtitle: 'About page',
-    link: '/about',
-    icon: Icons.info,
-  ),
-  MenuItem(
-    title: 'Contact',
-    subtitle: 'Contact page',
-    link: '/contact',
-    icon: Icons.contact_page,
-  ),
-  MenuItem(
-    title: 'Settings',
-    subtitle: 'Settings page',
-    link: '/settings',
-    icon: Icons.settings,
-  ),
+  // MenuItem(
+  //   title: 'Home',
+  //   subtitle: 'Home page',
+  //   link: '/',
+  //   icon: Icons.home,
+  // ),
+  // MenuItem(
+  //   title: 'About',
+  //   subtitle: 'About page',
+  //   link: '/about',
+  //   icon: Icons.info,
+  // ),
+  // MenuItem(
+  //   title: 'Contact',
+  //   subtitle: 'Contact page',
+  //   link: '/contact',
+  //   icon: Icons.contact_page,
+  // ),
+  // MenuItem(
+  //   title: 'Settings',
+  //   subtitle: 'Settings page',
+  //   link: '/settings',
+  //   icon: Icons.settings,
+  // ),
 ];
