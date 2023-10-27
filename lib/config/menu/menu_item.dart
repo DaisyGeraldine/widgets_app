@@ -31,6 +31,43 @@ const appMenuItems = <MenuItem> [
     link: '/cards',
     icon: Icons.access_alarm,
   ),
+
+  MenuItem(
+    title: 'Animated',
+    subtitle: 'Animated page',
+    link: '/animated',
+    icon: Icons.accessibility,
+  ),
+
+  MenuItem(
+    title: 'Infinite Scroll',
+    subtitle: 'Infinite Scroll page',
+    link: '/infinite_scroll',
+    icon: Icons.account_balance,
+  ),
+
+  MenuItem(
+    title: 'Progress',
+    subtitle: 'Progress page',
+    link: '/progress',
+    icon: Icons.account_balance_wallet,
+  ),
+
+  MenuItem(
+    title: 'Snackbar',
+    subtitle: 'Snackbar page',
+    link: '/snackbar',
+    icon: Icons.account_box,
+  ),
+
+  MenuItem(
+    title: 'UI Controls',
+    subtitle: 'UI Controls page',
+    link: '/ui_controls',
+    icon: Icons.account_circle,
+  ),
+
+
   
   // MenuItem(
   //   title: 'Home',

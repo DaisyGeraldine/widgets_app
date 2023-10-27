@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class SnackBarScreen extends StatelessWidget {
 
-  static String name = 'Infinite.screen';
+  static String name = 'Snackbar.screen';
 
   const SnackBarScreen({super.key});
 
