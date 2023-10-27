@@ -66,6 +66,12 @@ const appMenuItems = <MenuItem> [
     link: '/ui_controls',
     icon: Icons.account_circle,
   ),
+  MenuItem(
+    title: 'Introduction to app',
+    subtitle: 'Tutorial introduction',
+    link: '/tutorial',
+    icon: Icons.accessible_rounded,
+  ),
 
 
   
