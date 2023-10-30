@@ -19,6 +19,13 @@ class MenuItem {
 const appMenuItems = <MenuItem> [
 
   MenuItem(
+    title: 'Riverpod Counter',
+    subtitle: 'Introduction to Riverpod Counter',
+    link: '/counter-river',
+    icon: Icons.add,
+  ),
+
+  MenuItem(
     title: 'Buttons',
     subtitle: 'Buttons page',
     link: '/buttons',
@@ -31,6 +38,58 @@ const appMenuItems = <MenuItem> [
     link: '/cards',
     icon: Icons.access_alarm,
   ),
+
+  MenuItem(
+    title: 'Animated',
+    subtitle: 'Animated page',
+    link: '/animated',
+    icon: Icons.accessibility,
+  ),
+
+  MenuItem(
+    title: 'Infinite Scroll',
+    subtitle: 'Infinite Scroll page',
+    link: '/infinite_scroll',
+    icon: Icons.account_balance,
+  ),
+
+  MenuItem(
+    title: 'Progress',
+    subtitle: 'Progress page',
+    link: '/progress',
+    icon: Icons.account_balance_wallet,
+  ),
+
+  MenuItem(
+    title: 'Snackbar',
+    subtitle: 'Snackbar page',
+    link: '/snackbar',
+    icon: Icons.account_box,
+  ),
+
+  MenuItem(
+    title: 'UI Controls',
+    subtitle: 'UI Controls page',
+    link: '/ui_controls',
+    icon: Icons.account_circle,
+  ),
+  MenuItem(
+    title: 'Introduction to app',
+    subtitle: 'Tutorial introduction',
+    link: '/tutorial',
+    icon: Icons.accessible_rounded,
+  ),
+
+  MenuItem(
+    title: 'Change Theme',
+    subtitle: 'Change Theme to app',
+    link: '/theme-change',
+    icon: Icons.color_lens_outlined,
+  ),
+
+  
+
+
   
   // MenuItem(
   //   title: 'Home',
